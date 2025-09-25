@@ -22,7 +22,7 @@ pokedex/
 ├── styles/
 │   └── styles.css         # Estilos principales
 ├── scripts/
-│   └── script.js          # Lógica JS (con fetch, filtrado, animaciones)         # Opcional, si quieres guardar JSON de prueba
+│   └── script.js          # Lógica JS (con fetch, filtrado, animaciones)
 ```
 
 ## Instrucciones para correrlo
