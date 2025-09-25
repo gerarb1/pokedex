@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="pokedex">
+    <!-- Panel Izquierdo (lista de Pokémon) -->
+    <div class="pokedex-list">
+      <h2>Pokémon</h2>
+      <input type="text" id="search" placeholder="Buscar Pokémon...">
+      <ul id="pokemon-list"></ul>
+    </div>
+
+<div class="pokedex-details">
+  <h2 id="poke-name">Selecciona un Pokémon</h2>
+  
+  <div class="poke-image-container">
+    <img id="poke-img" src="" alt="">
+  </div>
+  
+  <!-- Recuadro de información básica -->
+  <div class="info-box">
+    <h3>Información</h3>
+    <p id="poke-info"></p>
+    <p id="poke-description"></p>
+  </div>
+
+  <!-- Recuadro de estadísticas -->
+  <div class="stats-box">
+    <h3>Estadísticas</h3>
+    <div id="poke-stats"></div>
+  </div>
+</div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
